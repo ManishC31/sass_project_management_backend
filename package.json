@@ -1,0 +1,37 @@
+{
+  "name": "sass_project_management_backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManishC31/sass_project_management_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManishC31/sass_project_management_backend/issues"
+  },
+  "homepage": "https://github.com/ManishC31/sass_project_management_backend#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "pg": "^8.16.3",
+    "sql-template-strings": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

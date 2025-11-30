@@ -10,3 +10,13 @@ export const registerOrganizationValidations = [
   body("organizationName").notEmpty().withMessage("Organization name is required"),
   body("organizationSize").notEmpty().withMessage("Organization size is required"),
 ];
+
+export const loginUserValidations = [
+  body("email").isEmail().withMessage("Invalid email address").toLowerCase(),
+  body("password").notEmpty().withMessage("Invalid Password"),
+];
+
+export const mailVerificationValidations = [
+  body("otp").notEmpty().withMessage("Valid OTP is required"),
+  body("email").isEmail().withMessage("Invalid email address").toLowerCase(),
+];
